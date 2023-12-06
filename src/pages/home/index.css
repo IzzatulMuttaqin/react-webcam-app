@@ -1,0 +1,56 @@
+.Home {
+    text-align: center;
+}
+
+.Home-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Home-logo {
+        animation: Home-logo-spin infinite 20s linear;
+    }
+}
+
+.Home-header {
+    background-color: #282c34;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+    .Home-content {
+        max-width: none;
+        width: auto;
+    }
+}
+
+.Home-link {
+    color: #61dafb;
+}
+
+@keyframes Home-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
