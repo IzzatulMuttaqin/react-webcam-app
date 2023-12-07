@@ -1,0 +1,7 @@
+.landing {
+    color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.webcam-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.webcam-app>video {
+    width: calc(100vw - 20px);
+}
+
+@media screen and (min-width: 1000px) {
+    .webcam-app>video {
+        width: calc(70vw - 100px);
+    }
+}
